@@ -84,6 +84,7 @@ def move(begin):
                 rover.setposition(rX,rY)
                 begin = 0
                 print("Posicion del rover",rover.position(),math.degrees(ang), "grados")
+                print("RECORRIDO TERMINADO")
                 break
             time.sleep(0.25)
             print("Posicion del rover",rover.position(),math.degrees(ang), "grados")
